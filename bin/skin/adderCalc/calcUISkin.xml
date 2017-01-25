@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="300,144" sizebox="40,40,60,60" caption="0,0,0,30">
+    <VerticalLayout width="300" height="144" bkimage="F:\project\dui\calc\calc1.png">
+        <HorizontalLayout width="300" height="35">
+            <HorizontalLayout float="true" pos="0,0,0,0" width="137" height="35">
+                <Container float="true" pos="0,0,0,0" width="32" height="34" bkimage="calc_r6_c2.png" />
+                <Text text=" Addr Calc" float="true" pos="40,1,0,0" width="74" height="33" textpadding="2,8,2,0" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+            </HorizontalLayout>
+            <HorizontalLayout float="true" pos="150,0,0,0" width="150" height="34">
+                <Button name="BtnMin" bordersize="1" float="true" pos="50,0,0,0" width="32" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;calc_r12_c5.png&apos; source=&apos;30,0,60,31&apos; mask=&apos;0xffffffff&apos;" hotimage="file=&apos;calc_r12_c5.png&apos; source=&apos;0,0,30,31&apos; mask=&apos;0xffffffff&apos;" pushedimage="file=&apos;calc_r12_c5.png&apos; source=&apos;60,0,90,31&apos; mask=&apos;0xffffffff&apos;" />
+                <Button name="BtnMax" float="true" pos="82,1,0,0" width="32" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;calc_r10_c4.png&apos; source=&apos;30,0,60,30&apos; mask=&apos;0xffffffff&apos;" hotimage="file=&apos;calc_r10_c4.png&apos; source=&apos;0,0,30,30&apos; mask=&apos;0xffffffff&apos;" pushedimage="file=&apos;calc_r10_c4.png&apos; source=&apos;60,0,90,30&apos; mask=&apos;0xffffffff&apos;" />
+                <Button name="BtnClose" float="true" pos="115,1,0,0" width="32" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;calc_r4_c4.png&apos; source=&apos;30,0,60,30&apos; mask=&apos;0xffffffff&apos;" hotimage="file=&apos;calc_r4_c4.png&apos; source=&apos;0,0,30,30&apos; mask=&apos;0xffffffff&apos;" pushedimage="file=&apos;calc_r4_c4.png&apos; source=&apos;60,0,90,30&apos; mask=&apos;0xffffffff&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout width="297" height="106">
+            <Edit name="EditSource1" float="true" pos="27,24,0,0" width="51" height="24" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Edit name="EditSource2" float="true" pos="112,23,0,0" width="52" height="27" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Edit name="EditResult" float="true" pos="219,24,0,0" width="49" height="25" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Button name="BtnCalc" text="计算" float="true" pos="197,75,0,0" width="72" height="24" bkimage="F:\project\dui\calc\calc_r5_c7.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="5" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
